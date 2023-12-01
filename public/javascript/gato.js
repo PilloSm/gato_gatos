@@ -30,7 +30,6 @@ function obtenerDigito(cadena) {
 document.addEventListener('DOMContentLoaded', () => {
   const gameContainer = document.getElementById('game-container');
   var contenido = '';
-  // Crear el tablero
   for (let i = 10; i < 100; i += 10) {
     const miniBoard = document.createElement('div');
     miniBoard.classList.add('mini-board');

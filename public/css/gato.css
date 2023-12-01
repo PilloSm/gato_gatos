@@ -15,27 +15,21 @@ html {
     flex-direction: column;
 }
 
-.secalinear{
+.secalinear {
     display: flex;
     justify-content: space-between;
     height: 10%;
     width: 100%;
 }
-.titulo{
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
-.TURNON{
+
+.TURNON {
     display: flex;
 }
-#turnin{
+
+#turnin {
     display: flex;
 }
-#Turno{
-    display: flex;
-}
+
 #game-container {
     margin: 0;
     display: grid;
@@ -44,7 +38,7 @@ html {
     gap: 5px;
     height: 80vh;
     width: 80vh;
-    background-color: aqua;
+    background-color: #ccc; /* Cambiado de aqua a #ccc */
 }
 
 .mini-board {
@@ -56,10 +50,8 @@ html {
 }
 
 .cell {
-    display: flex;
     width: 100%;
-    font-size: 1.5em;
-    /* Reducimos el tamaño del texto */
+    font-size: 1.5em; /* Puedes ajustar según sea necesario */
     display: flex;
     align-items: center;
     justify-items: center;
