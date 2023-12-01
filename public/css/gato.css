@@ -1,0 +1,71 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+#alinear {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #777;
+    flex-direction: column;
+}
+
+.secalinear{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+.titulo{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.TURNON{
+    display: flex;
+}
+#turnin{
+    display: flex;
+}
+#Turno{
+    display: flex;
+}
+#game-container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    height: 80vh;
+    width: 80vh;
+    background-color: aqua;
+}
+
+.mini-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    background-color: #ccc;
+}
+
+.cell {
+    display: flex;
+    width: 100%;
+    font-size: 1.5em;
+    /* Reducimos el tamaño del texto */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: #fff;
+}
